@@ -95,7 +95,11 @@
 // Filament Runout Sensor
 //
 #define FIL_RUNOUT_PIN                     P1_26  // E0DET
-#define FIL_RUNOUT2_PIN                    P1_25  // E1DET
+//#define FIL_RUNOUT2_PIN                    P1_25  // E1DET
+// Z Max Pin for endstop
+// https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3/issues/175#issuecomment-579803724
+#define Z_MAX_PIN P1_25
+
 
 //
 // Power Supply Control
