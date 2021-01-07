@@ -41,7 +41,7 @@
 //
 // M3/M4/M5 - Spindle/Laser Control
 //
-//#define SPINDLE_LASER_PWM_PIN
+//#define SPINDLE_LASER_PWM_PIN              P2_03
 #define SPINDLE_LASER_ENA_PIN              P2_00
 //#define SPINDLE_DIR_PIN
 
